@@ -17,6 +17,15 @@ h1, h2, h3, h4, h5, h6, p{
     align-items: center;
 }
 
+.nav-item{
+    margin: 0 20px;
+}
+
+.nav-item:hover{
+    background-color: #63a886;
+    cursor: pointer;
+}
+
 .left-container ul{
     list-style: none;
     padding: 0;
@@ -57,7 +66,7 @@ h1, h2, h3, h4, h5, h6, p{
    border-radius: 50%;
 }
 
-#magic-btn{
+.magic-btn{
     background: #63a886;
     color: #fff;
     padding: 10px 20px;
@@ -66,7 +75,12 @@ h1, h2, h3, h4, h5, h6, p{
     font-size: 20px;
     cursor: pointer;
     margin: 20px 0;
+}
 
+.magic-btn:hover{
+    background: #fff;
+    color: #63a886;
+    border: 1px solid #63a886;
 }
 
 .hidden-btn{
@@ -89,6 +103,7 @@ h1, h2, h3, h4, h5, h6, p{
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 .info-title{
@@ -100,17 +115,10 @@ h1, h2, h3, h4, h5, h6, p{
     color: #fff;
 }
 
-.profile{
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-}
-
 .info-content{
     width: 80%;
     color: #fff;
     font-size: 20px;
-    text-align: center;
 }
 
 .info-content ul{
@@ -124,6 +132,7 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 .info-content ul li h3{
+    color: #cb6666;
     display: inline;
     font-weight: bold;
     margin-bottom: 10px;
@@ -173,8 +182,8 @@ h1, h2, h3, h4, h5, h6, p{
     align-items: center;
 }
 
-.project-title{
-    margin: 50px 0;
+.certificate-title{
+    margin: 25px 0 10px 0;
 }
 
 .container .row{
